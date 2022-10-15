@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 1500px;
+  height: 5000px;
+}
+
+/*static устанавливается значением по умолчанию, элемент находится в "потоке" и не может быть спозиционирован вручную*/
+#static {
+  position: static;
+  background-color: salmon;
+  border: 3px solid #ffc5be;
+}
+
+/*Для элемента выделяется место в потоке, расположение элемента выставляется относительно расположения родительского элемента*/
+#relative {
+  position: relative;
+  left: 300px;
+  top: 250px;
+  background-color: darkorange;
+  border: 3px solid indianred;
+}
+
+/*Для элемента не выделяется место в потоке, позиционируется относительно ближайшего спозиционированного предка, если такой есть, иначе относительно начального блока*/
+#absolute {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  background-color: #fcf3eb;
+  border: 3px solid #e1f2ff;
+}
+
+/*Для элемента не выделяется место в потоке, позиционируется относительно начального блока, установленного viewport'ом*/
+#fixed {
+  position: fixed;
+  top: 100px;
+  background-color: #9fe79f;
+  border: 3px solid #228b22;
+}
+
+/*Для элемента выделяется место в потоке, позиционируется относительно ближайшего прокручивающегося предка и содержащего блока*/
+#sticky {
+  position: sticky;
+  top: 10px;
+  background-color: seagreen;
+  border: 3px solid #0d653b;
+}
+
+.block {
+  display: block;
+  width: 65px;
+  height: 65px;
+  background-color: rgba(0,0,255,.2);
+  border: 3px solid #00f;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+}
+
+.block:not(:last-child) {
+  margin-right: 20px;
+}
+
+.text {
+  margin-left: 400px;
+  min-width: 100px;
+  max-width: 300px;
+  left: 400px;
+}

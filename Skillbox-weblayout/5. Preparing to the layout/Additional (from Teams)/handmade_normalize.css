@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+}
+
+html, body {
+  min-width: 100vh; /*vh (viewport height) — это процентная величина от общей высоты области просмотра*/
+  font-size: 18px;
+  line-height: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button {
+  -webkit-appearance: none; /*Свойство -webkit-appearance - это CSS расширение, поддерживаемое браузерным движком WebKit. Расширения WebKit содержат префикс -webkit-, который означает, что он относится к WebKit платформе с открытым исходным кодом.*/
+}
