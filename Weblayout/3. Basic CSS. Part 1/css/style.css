@@ -97,7 +97,7 @@ li:not(:last-child) {
 
 .gray-block:last-child {
   margin-bottom: 0;
-  font: 400 15px / Arial;
+  font: 400 15px 'Arial';
 }
 
 .gray-block p {
