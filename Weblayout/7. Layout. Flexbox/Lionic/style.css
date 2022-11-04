@@ -28,7 +28,7 @@ body {
   list-style: none;
 }
 
-.btn-reset {
+.button-reset {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -45,11 +45,11 @@ body {
   margin: 0 auto;
 }
 
-.section-title {
+.section__title {
   margin: 0 0 40px;
 }
 
-.section-description {
+.section__description {
   margin: 0 0 50px;
 }
 
@@ -64,19 +64,19 @@ body {
   padding: 36px 0;
 }
 
-.header-container {
+.header__container {
   align-items: center;
 }
 
-.header-logo {
+.header__logo {
   margin-right: auto;
 }
 
-.header-nav {
+.header__nav {
   margin-right: 52px;
 }
 
-.header-list-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 52px;
 }
 
@@ -86,35 +86,35 @@ body {
   padding: 100px 0;
 }
 
-.hero-content {
+.hero__content {
   max-width: 50%;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.hero-title {
+.hero__title {
   margin: 0 0 25px;
 }
 
-.hero-description {
+.hero__description {
   margin: 0 0 34px;
 }
 
-.hero-btn {
+.hero__btn {
   margin-bottom: 14px;
 }
 
 /* services */
 
-.services-title {
+.services__title {
   text-align: center;
 }
 
-.services-description {
+.services__description {
   text-align: center;
 }
 
-.services-item {
+.services__item {
   flex-direction: column;
   align-items: center;
   padding: 30px;
@@ -122,11 +122,11 @@ body {
   outline: 1px solid coral;
 }
 
-.services-item:not(:nth-child(4)) {
+.services__item:not(:nth-child(4)) {
   margin-right: 30px;
 }
 
-.services-item-icon {
+.services__item--icon {
   margin-bottom: 25px;
 }
 
@@ -214,13 +214,13 @@ body {
   font-style: normal;
 }
 
-.contacts-item {
+.contacts__item {
   flex-direction: column;
   width: 370px;
   outline: 1px solid coral;
 }
 
-.contacts-item:not(:nth-child(3n)) {
+.contacts__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
@@ -242,19 +242,19 @@ body {
   padding: 42px 0;
 }
 
-.footer-container {
+.footer__container {
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-left, .footer-right {
+.footer__left, .footer__right {
   align-items: center;
 }
 
-.footer-logo {
+.footer__logo {
   margin-right: 25px;
 }
 
-.footer-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 28px;
 }
