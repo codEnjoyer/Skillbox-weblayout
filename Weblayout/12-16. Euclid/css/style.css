@@ -57,6 +57,7 @@ body {
   justify-content: center;
   border: none;
   cursor: pointer;
+  border-radius: 16px;
 }
 
 .container {
@@ -97,6 +98,7 @@ body {
 }
 
 .header {
+  border-radius: 0 0 32px 32px;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
   height: 100px;
@@ -193,6 +195,12 @@ body {
   z-index: 1000;
 }
 
+/* main */
+
+.main {
+  margin-top: 50px;
+}
+
 /* section__hero */
 
 .swiper-img-one {
@@ -213,10 +221,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 32px;
 }
 
 .swiper-text {
   padding: 103px 80px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-grey);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
 }
 
 .section__hero-heading {
@@ -275,7 +299,6 @@ body {
   font-weight: normal;
   font-size: 48px;
   line-height: 59px;
-  color: var(--color-lightBlack);
 }
 
 .section__about-description {
@@ -284,7 +307,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: var(--color-lightBlack);
+  color: black;
 }
 
 .about-img {
@@ -308,6 +331,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 32px;
 }
 
 .about-imt__text {
@@ -319,6 +343,7 @@ body {
   padding-left: 54px;
   padding-right: 68px;
   background: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
 }
 
 .about-img__description {
@@ -361,6 +386,7 @@ body {
   margin: 0;
   padding: 0;
   border: 1px solid var(--color-grey);
+  border-radius: 32px;
 }
 
 .about__item {
@@ -477,6 +503,7 @@ body {
 .how-working__img {
   height: auto;
   width: 50%;
+  border-radius: 32px;
 }
 
 .how-working--flex {
@@ -548,7 +575,7 @@ body {
   fill: var(--color-orange);
 }
 
-.section__faq-qustions__item {
+.section__faq-questions__item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -636,31 +663,31 @@ body {
 .accordion-item:hover .section__faq-questions__description {
   fill: var(--color-white);
 }
-.section__faq-qustions__item:hover .section__faq-questions__description {
+.section__faq-questions__item:hover .section__faq-questions__description {
   fill: var(--color-orange);
 }
 
-.section__faq-qustions__item:hover {
+.section__faq-questions__item:hover {
   color: var(--color-orange);
   border-top: 1px solid var(--color-orange);
 }
 
-.section__faq-qustions__item:hover + .section__faq-qustions__item {
+.section__faq-questions__item:hover + .section__faq-questions__item {
   border-top: 1px solid var(--color-orange);
 }
 
-.section__faq-qustions__item:last-child {
+.section__faq-questions__item:last-child {
   border-bottom: 1px solid var(--color-grey);
 }
 
-.section__faq-qustions__item:last-child:hover {
+.section__faq-questions__item:last-child:hover {
   border-bottom: 1px solid var(--color-orange);
 }
 
 /* section__footer */
 
 .footer {
-  background-color: #222;
+  background-color: black;
 }
 
 .button__checkbox {
@@ -710,7 +737,7 @@ body {
 }
 
 .section__footer-social-links {
-  margin-top: 68px;
+  margin-top: 36px;
   display: flex;
 }
 
@@ -720,6 +747,10 @@ body {
 
 .social-link:not(:last-child) {
   margin-right: 25px;
+}
+
+.footer__svg {
+  cursor: pointer;
 }
 
 .section__footer__middle-heading {
@@ -775,6 +806,7 @@ body {
   background-color: #414141;
   color: #cacaca;
   border: none;
+  border-radius: 16px;
 }
 
 .form-input:last-child {
