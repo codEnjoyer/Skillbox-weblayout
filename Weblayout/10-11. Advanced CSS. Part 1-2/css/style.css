@@ -153,11 +153,13 @@ address {
   border-radius: 10px;
   font-size: 16px;
   line-height: 16px;
+  background-color: white;
   color: var(--main-gold);
 }
 
 .btn:hover, .btn:focus {
   background-color: var(--main-gold);
+  cursor: pointer;
   color: white;
 }
 
