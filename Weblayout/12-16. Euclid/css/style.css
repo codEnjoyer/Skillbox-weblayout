@@ -204,15 +204,15 @@ body {
 /* section__hero */
 
 .swiper-img-one {
-  background-image: url("../img/section__hero-img.png");
+  background-image: url("../img/hero_background_1.png");
 }
 
 .swiper-img-two {
-  background-image: url("../img/pic_1.png");
+  background-image: url("../img/hero_background_2.png");
 }
 
 .swiper-img-three {
-  background-image: url("../img/pic_2.png");
+  background-image: url("../img/hero_background_3.png");
 }
 
 .swiper-img {
@@ -398,7 +398,7 @@ body {
 }
 
 .about__icon {
-  background-image: url("../img/section-about-us-quality-img-first-block.svg");
+  background-image: url("../img/about-us-first-block.svg");
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -408,7 +408,7 @@ body {
 }
 
 .about__icon-last {
-  background-image: url("../img/section-about-us-second-block-img.svg");
+  background-image: url("../img/about-us-second-block.svg");
 }
 
 .about__text-heading {
@@ -622,7 +622,7 @@ body {
 
 .ui-accordion .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
-  background-image: url("../img/+х.svg");
+  background-image: url("../img/cross.svg");
 }
 
 .ui-accordion .ui-widget-content {
