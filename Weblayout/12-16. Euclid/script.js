@@ -33,7 +33,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     active.addEventListener('click', function () {
       if (inputSearch.classList.toggle('show__input')) {
+        inputSearch.placeholder = 'Что будем искать?'
         inputSearch.style.display = 'block';
+        inputSearch.style.boxShadow = '0 0 20px rgba(0, 0, 0, 0.12)'
+        inputSearch.onmouseover = function ()
+        {
+          inputSearch.style.outline = '2px var(--color-orange) solid';
+        }
+        inputSearch.onmouseleave = function ()
+        {
+          inputSearch.style.outline = 'none';
+        }
       } else {
         inputSearch.style.display = 'none';
         inputSearch.value = '';
