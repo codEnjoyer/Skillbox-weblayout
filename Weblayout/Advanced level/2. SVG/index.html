@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>SVG-спрайты</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<div class="site-container">
+	<main class="main">
+		<section class="first">
+			<div class="first_content">
+				<h2 class="first_content_title">
+					Как это работает?
+				</h2>
+				<div class="svg_block">
+					<div class="svg_card coffee">
+						<svg style="width: 375px; height: 288px;">
+							<use xlink:href="sprite.svg#coffee"></use>
+						</svg>
+						<h3 class="svg_card_title">
+							Утренний
+							<span class="accent_color">кофе</span>
+						</h3>
+						<p class="svg_card_descr">
+							Кофеин воздействует на центральную нервную систему как
+							природный “будильник”. Поэтому мы быстрее просыпаемся.
+						</p>
+					</div>
+					<div class="svg_card meditation">
+						<svg style="width: 375px; height: 288px;">
+							<use xlink:href="sprite.svg#meditation"></use>
+						</svg>
+						<h3 class="svg_card_title">
+							Час
+							<span class="accent_color">медитации</span>
+						</h3>
+						<p class="svg_card_descr">
+							После практик оба полушария мозга начинают работать
+							сбалансированно — это привносит порядок в вашу жизнь.
+						</p>
+					</div>
+					<div class="svg_card running">
+						<svg style="width: 375px; height: 288px;">
+							<use xlink:href="sprite.svg#running"></use>
+						</svg>
+						<h3 class="svg_card_title">
+							Вперёд к
+							<span class="accent_color">свершениям!</span>
+						</h3>
+						<p class="svg_card_descr">
+							Ресурсы каждого человека ограничены, поэтому нам необходимо
+							беречь себя и вовремя останавливаться.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="second">
+			<div class="second_content">
+				<div class="block_left">
+					<h2 class="second_content_title">
+						Интеграция со сторонними сервисами
+					</h2>
+					<p class="second_content_descr">
+						Поможет всегда оставаться в курсе всех событий, быть максимально
+						эффективным на протяжении всего рабочего дня, контролировать
+						свои задачи и не опоздать на запланированные встречи.
+					</p>
+				</div>
+				<div class="block_right">
+					<div class="link_top">
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#facebook"></use>
+						</svg>
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#trello_1"></use>
+						</svg>
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#worklio"></use>
+						</svg>
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#dropbox"></use>
+						</svg>
+					</div>
+					<div class="link_bottom">
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#google"></use>
+						</svg>
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#trello_2"></use>
+						</svg>
+						<svg style="width: 70px; height: 70px;">
+							<use xlink:href="sprite.svg#slack"></use>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</div>
+</body>
+</html>

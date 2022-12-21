@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url("fonts/open-sans-v18-latin_cyrillic-regular.woff2"),
+	url("fonts/open-sans-v18-latin_cyrillic-regular.woff");
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url("fonts/open-sans-v18-latin_cyrillic-600.woff2"),
+	url("fonts/open-sans-v18-latin_cyrillic-600.woff");
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url("fonts/open-sans-v18-latin_cyrillic-700.woff2"),
+	url("fonts/open-sans-v18-latin_cyrillic-700.woff");
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color: #E5E5E5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.site-container {
+	width: 1440px;
+	margin: 0 auto;
+	color: #000000;
+}
+
+.first_content {
+	background-color: #FFF6ED;
+	padding-bottom: 42px;
+}
+
+.first_content_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.svg_block {
+	display: flex;
+	justify-content: center;
+}
+
+.svg_card {
+	width: 375px;
+	height: 440px;
+}
+
+.meditation {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.svg_card_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+	margin-top: 21px;
+	margin-bottom: 11px;
+}
+
+.accent_color {
+	color: #FF7A00;
+}
+
+.svg_card_descr {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.second_content {
+	display: flex;
+	padding-bottom: 60px;
+	padding-left: 57px;
+  background-position-x: 720px;
+	background-position-y: 23px;
+  background: white url(./svg/ellipse.png) no-repeat;
+}
+
+.block_left {
+	width: 43%;
+}
+
+.second_content_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 54px;
+	padding-top: 60px;
+	padding-bottom: 11px;
+}
+
+.second_content_descr {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.block_right {
+	width: 56%;
+	padding-top: 92px;
+}
+
+.link_top {
+	padding-left: 181px;
+	padding-right: 43px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.link_bottom {
+	padding-left: 251px;
+	padding-right: 133px;
+	display: flex;
+	justify-content: space-between;
+}
