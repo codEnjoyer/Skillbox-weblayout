@@ -9,7 +9,7 @@
 
 Вы можете просмотреть мои работы по этому курсу, перейдя по этой [ссылке](https://htmlpreview.github.io/) и вставив
 ссылку на html страницу из этого репозитория. К примеру:
-- Для просмотра [задания по верстке HTML-письма](https://htmlpreview.github.io/?https://github.com/codEnjoyer/Web-layout/blob/master/Weblayout/Advanced%20level/1.%20HTML-messages%20layout/index.html)
+- Для просмотра [задания по верстке HTML-письма](https://github.com/codEnjoyer/Web-layout/blob/master/Weblayout/Advanced%20level/1.%20HTML-messages%20layout/index.html)
   перейдите по этой [ссылке](https://htmlpreview.github.io/?https://github.com/codEnjoyer/Web-layout/blob/master/Weblayout/Advanced%20level/1.%20HTML-messages%20layout/index.html).
 - Для просмотра [задания по верстке интерактивных элементов](Weblayout/Basic%20level/17.%20Knowledge%20base/index.html)
   перейдите по этой [ссылке](https://htmlpreview.github.io/?https://github.com/codEnjoyer/Web-layout/blob/master/Weblayout/Basic%20level/17.%20Knowledge%20base/index.html).
